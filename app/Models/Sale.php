@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sale extends Model
 {
-    protected $fillable = ['date', 'sale_number'];
+    protected $fillable = ['sale_number', 'date'];
 
     public function lines()
     {

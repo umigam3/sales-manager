@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Escandallo extends Model
 {
-    protected $fillable = ['name', 'food_cost'];
+    protected $fillable = ['id', 'name', 'food_cost'];
 
     public function saleLines()
     {

@@ -13,9 +13,16 @@ class EscandalloSeeder extends Seeder
      */
     public function run(): void
     {
-        Escandallo::insert([
-            ['id' => 2, 'name' => 'Nachos con guacamole', 'food_cost' => 5.51],
-            ['id' => 3, 'name' => 'Ron cola', 'food_cost' => 2.25],
+        Escandallo::create([
+            'id' => 2,
+            'name' => 'Nachos con guacamole',
+            'food_cost' => 5.51,
+        ]);
+        
+        Escandallo::create([
+            'id' => 3,
+            'name' => 'Ron cola',
+            'food_cost' => 2.25,
         ]);
     }
 }
