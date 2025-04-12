@@ -18,8 +18,8 @@ Aplicación en Laravel para registrar ventas, calcular márgenes de beneficio po
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_proyecto.git
-cd tu_proyecto
+git clone https://github.com/umigam3/sales-manager
+cd sales-manager
 ```
 
 2. Instala las dependencias
